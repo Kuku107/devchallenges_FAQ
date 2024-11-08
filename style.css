@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: #030616;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F8FAFC;
+    line-height: 1.6;
+    padding-bottom: 72px;
+}
+
+header {
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 72px 0px;
+}
+
+h1 {
+    font-size: 2.25rem;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+#questions-list {
+    list-style: none;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    max-width: 672px;
+    margin: auto;
+}
+
+#questions-list h2{
+    margin-bottom: 32px;
+}
+
+.answer-question ul,
+.answer-question ol{
+    margin: 24px 0px;
+    padding-left: 24px;
+}
+
+#questions-list li {
+    margin-bottom: 6px;
+}
+
+a {
+    color: #4E80EE;
+    text-decoration: none;
+}
+
+hr {
+    margin: 40px 0px;
+}
+
